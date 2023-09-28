@@ -1,0 +1,16 @@
+var pessoa = {
+    nome: "Edson Batista",     // string
+    salario: 1400.05,         // number
+    idade: 30,                 // number
+    possuiDiploma: false    // booleano
+};
+
+console.log("Nome: " + pessoa.nome);
+console.log("Salário: " + pessoa.salario);
+console.log("Idade: " + pessoa.idade);
+console.log("Possui Diploma? " + (pessoa.possuiDiploma ? "Sim" : "Não"));
+
+Nome: Edson Batista
+Salário: 1400.05
+Idade: 30
+Possui Diploma? Não
